@@ -11,6 +11,7 @@
     justify-content: space-around;
     text-align: center;
     gap: 700px;
+    padding-top: 17px;
 }
 
 .hight__one {
@@ -145,4 +146,6 @@
 
 .p__two {
     font-size: 20px;
+    width: 146px;
+    height: 30px;
 }

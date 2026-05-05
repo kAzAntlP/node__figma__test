@@ -1,0 +1,38 @@
+
+
+
+
+.Fresh {
+    background-image: url(/public/5238addc08508ea34e649a617a3b0079a68ce0f2.jpg);
+}
+
+.Fresh__button {
+
+}
+
+.Fresh__button {
+    background-color: #00B207;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    width: 191px;
+    height: 51px;
+    border-radius: 40px;
+    padding-left: 40px;
+}
+
+.Fresh__button p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.Fresh__button img{
+    margin-left: 16px;
+    width: 15px;
+    height: 12px;
+}
+
+.Fresh__button:hover {
+    opacity: 0.8;
+}

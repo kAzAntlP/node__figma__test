@@ -25,7 +25,6 @@ export default function Header() {
           <img className="plant__img" src="/plant 1.svg" alt="картинка" />
           <h1>Ecobazar</h1>
         </div>
-        <p></p>
         <div className="form">
             <form action="#!" method="get">
               <input type="search" placeholder="Search"/>
