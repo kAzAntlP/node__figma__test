@@ -1,0 +1,148 @@
+* {
+    color: #1A1A1A;
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.hight {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 700px;
+}
+
+.hight__one {
+    display: flex;
+}
+
+.hight__one p{
+    width: 292px;
+    font-size: 12px;
+    text-align: center;
+    color: #808080;
+}
+
+.hight__one img{
+    width: 15px;
+    height: 18px;
+}
+
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links__one {
+    display: flex;
+    align-items: center;
+}
+
+.links__two {
+    display: flex;
+}
+
+
+.links__one p{
+    color: #808080;
+    width: 22px;
+    height: 16px;
+}
+
+.links__two p{
+    color: #808080;
+    width: 22px;
+    height: 16px;
+}
+
+.links__one img{
+    width: 7px;
+    height: 3.5px;
+    margin-left: 6px;
+}
+
+.links__two img{
+    width: 7px;
+    height: 3.5px;
+    margin-left: 6px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.plant {
+    text-align: center;
+    display: flex;
+
+    font-size: 32px;
+}
+
+.plant__img {
+    max-width: 32px;
+    max-height: 32px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.form {
+    color: black;
+    width: 410px;
+}
+
+.form input{
+    width: 312px;
+    height: 45px;
+    padding: 10px;
+    /* font-size: 17px; */
+    border: 1px solid #999999;
+    float: left;
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form button{
+    width: 98px;
+    height: 45px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #00B207;
+    color: white;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px solid grey;
+    border-left: none; 
+    cursor: pointer;
+    text-align: center;
+    padding-right: 10px;
+}
+
+
+.group {
+    display: flex;
+}
+
+.group img{
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 12px;
+}
+
+.p__one {
+    color: #999999;
+    font-size: 14px;
+    padding-right: 14px;
+}
+
+.p__two {
+    font-size: 20px;
+}
