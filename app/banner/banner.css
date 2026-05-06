@@ -1,0 +1,39 @@
+.banner {
+    margin-bottom: 100px;
+}
+
+.banner__all {
+    /* display: flex; */
+    width: 424px;
+    height: 536px;
+}
+
+
+.banner__one {
+    background-image: url(/Rectangle54.svg);
+}
+
+.banner__one__p1 {
+    font-size: 14px;
+    text-align: center;
+} 
+
+.banner__one__p2 {
+    font-size: 40px;
+    text-align: center;
+} 
+
+.timer {
+    display: flex;
+    font-size: 24px;
+}
+
+.banner__button {
+    background-color: #fff;
+    width: 162px;
+    height: 45px;
+}
+
+.banner__button p {
+    color: #00B207;
+}

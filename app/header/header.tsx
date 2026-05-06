@@ -3,6 +3,9 @@ import "./header.css";
 export default function Header() {
   return (
     <div className="container">
+
+      
+
       <div className="hight">
         <div className="hight__one">
           <img src="/Map Pin.svg" alt="картинка" />
@@ -40,6 +43,55 @@ export default function Header() {
             </div>
         </div>
       </div>
+
+      
+{/* <div className="dropdown">
+        <button className="dropbtn">
+          <img src="/menu 1.svg" alt="" />
+        </button>
+        <div className="dropdown-content">
+          <a className="food__a vegetables" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/fish 2.svg" alt="" />
+            <p>River Fish</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+          <a className="food__a" href="">
+            <img src="/apple 1.svg" alt="" />
+            <p>Fresh Fruit</p>
+          </a>
+        </div>
+      </div> */}
     </div>
   );
 }

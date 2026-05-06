@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    gap: 700px;
+    gap: 913px;
     padding-top: 17px;
 }
 
@@ -76,6 +76,7 @@
     text-align: center;
 
     margin-top: 20px;
+    gap: 265px;
 }
 
 .plant {
@@ -84,6 +85,12 @@
 
     font-size: 32px;
 }
+
+.plant h1{
+    color: #002603;
+}
+
+
 
 .plant__img {
     max-width: 32px;
@@ -148,4 +155,88 @@
     font-size: 20px;
     width: 146px;
     height: 30px;
+    color: #1A1A1A;
+}
+
+.food {
+    width: 312px;
+    height: 560px;
+}
+
+.food__a {
+    align-items: center;
+    gap: 12px;
+    width: 312px;
+    height: 56px;
+    color: black;
+    display: flex;
+
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.food__a p{
+    color: black;
+    font-size: 14px;
+}
+
+.food__a img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.vegetables {
+}
+
+/* Стили кнопки */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Контейнер выпадающего меню */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown p{
+    color: black;
+}
+
+/* Содержимое выпадающего меню (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего меню */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета ссылок при наведении */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Показать меню при наведении на контейнер */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Изменение цвета кнопки при наведении */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }

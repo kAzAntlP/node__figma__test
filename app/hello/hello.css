@@ -1,16 +1,59 @@
-
-
-
-
-.Fresh {
-    background-image: url(/public/5238addc08508ea34e649a617a3b0079a68ce0f2.jpg);
+a {
+    color: #fff;
 }
 
-.Fresh__button {
+p {
+    color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#fff;
+}
+
+.Hello {
+    margin-bottom: 100px;
+}
+
+.container {
 
 }
 
-.Fresh__button {
+.Hello .container {
+    display: flex;
+}
+
+
+
+.fresh {
+    background-image: url(/Rectangle52.svg);
+    width: 984px;
+    height: 560px;
+}
+
+.fresh h1{
+    width: 400px;
+    font-size: 48px;
+    line-height: 120%;
+    padding-top: 140px;
+    padding-left: 48px;
+    margin-bottom: 20px;
+}
+
+.fresh__p{
+    height: 58px;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 3%;
+    padding-left: 48px;
+    color: #FFFFFF99;
+    margin-bottom: 32px;
+}
+
+.fresh__button {
+
+}
+
+.fresh__button {
     background-color: #00B207;
     color: #fff;
 
@@ -20,19 +63,36 @@
     height: 51px;
     border-radius: 40px;
     padding-left: 40px;
+    margin-left: 48px;
+    margin-bottom: 100px;
 }
 
-.Fresh__button p{
+.fresh__button p{
     font-size: 16px;
     color: #fff;
 }
 
-.Fresh__button img{
+.fresh__button img{
     margin-left: 16px;
     width: 15px;
     height: 12px;
 }
 
-.Fresh__button:hover {
+.fresh__button:hover {
     opacity: 0.8;
 }
+
+.ellipse {
+    display: flex;
+    padding-left: 48px;
+    gap: 8px;
+}
+
+
+
+
+
+
+
+
+
